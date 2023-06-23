@@ -1,0 +1,24 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ff78c4;
+}
+
+#gallery {
+  background-color: #ff78c4;
+}
+
+section {
+  padding-top: 8rem;
+}
+
+.gellery-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
