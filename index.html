@@ -13,12 +13,16 @@
     <title>alyazahramakeup</title>
     <link rel="icon" href="img/logo/logotab.png" type="image/png" />
     <link rel="shortcut icon" href="img/logo/logotab.png" type="image2/png" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet" />
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg shadow-sm fixed-top" style="background-color: #ffecec">
+    <nav class="navbar navbar-expand-lg shadow-sm fixed-top fixed-navbar" style="background-color: #ffecec">
       <div class="container">
-        <a class="navbar-brand" href="#">AlyaZahra Makeup</a>
+        <a class="navbar-brand" href="#home">AlyaZahraMakeup</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -65,11 +69,25 @@
         </div>
       </div>
       <div class="row justify-content-center fs-5" data-aos="zoom-in" data-aos-duration="1000">
-        <div class="col-4">
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, deleniti optio libero, odit, inventore ullam sed fugit blanditiis quo mollitia voluptatibus hic rerum ut alias harum nesciunt. Eius corrupti quisquam, ipsam corporis
-            rerum odio iusto sed, quae eaque sequi culpa.
+        <div class="col-md-4">
+          <p class="text-sm">Selamat datang di AlyaZahraMakeUp!</p>
+          <p class="text-sm">
+            Halo, nama saya Alya Zahra, seorang makeup artist yang berbasis di Samarinda, Kalimantan Timur. Saya memiliki kecintaan yang mendalam terhadap seni rias wajah dan mempersembahkan kemampuan saya untuk mempercantik dan
+            meningkatkan kepercayaan diri setiap individu yang duduk di kursi rias saya.
           </p>
+          <p class="text-sm">
+            Dalam perjalanan saya sebagai makeup artist, saya telah mengembangkan keahlian dalam berbagai gaya dan teknik riasan. Mulai dari riasan natural yang segar hingga tampilan glamour yang mencuri perhatian, saya berdedikasi untuk
+            menciptakan penampilan yang sesuai dengan kepribadian dan kebutuhan klien saya. Saya selalu mengikuti tren terbaru dan terus belajar agar dapat memberikan hasil yang terbaik.
+          </p>
+          <p class="text-sm">
+            Setiap klien adalah prioritas bagi saya. Sebelum kami memulai sesi rias, saya senang mendengarkan aspirasi dan keinginan Anda. Tujuan saya adalah mewujudkan visi Anda dan membuat Anda merasa percaya diri serta indah dalam kulit
+            Anda sendiri. Dengan menggunakan produk-produk terkini dan kualitas terbaik, saya memastikan bahwa riasan akan bertahan lama, tampak flawless, dan membuat Anda mempesona di setiap momen istimewa.
+          </p>
+          <p class="text-sm">
+            Terima kasih telah mengunjungi AlyaZahraMakeUp. Saya sangat antusias untuk berbicara lebih lanjut tentang kebutuhan riasan Anda dan membantu Anda mencapai tampilan yang sempurna. Silakan hubungi saya melalui formulir kontak atau
+            melalui informasi yang tertera di halaman ini. Saya sangat menantikan untuk bekerja bersama Anda dan menciptakan keajaiban kecantikan!
+          </p>
+          <p class="text-sm">Salam hangat,</p>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -170,7 +188,7 @@
     <!-- Akhir Contact -->
     <!-- Footer -->
     <footer class="text-center pb-3" style="background-color: #ffecec">
-      <p>Created With <i class="bi bi-heart-fill text-danger"></i> by Ubed</p>
+      <p>&copy; 2022 - AlyaZahra, All Rights Reserved.</p>
     </footer>
     <!-- Akhir Footer -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -187,8 +205,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/TextPlugin.min.js"></script>
     <script>
       gsap.registerPlugin(TextPlugin);
-      gsap.to(".display-4", { dutation: 3, text: "AlyaZahra Makeup" });
-      gsap.to(".lead", { dutation: 1.5, delay: 1, text: "ipsum dolor sit amet consectetur adipisicing elit. Nostrum, provident." });
+      gsap.to(".display-4", { dutation: 3, text: "AlyaZahra" });
+      gsap.to(".lead", { dutation: 1.5, delay: 1, text: "MAKEUP ARTIST" });
       gsap.from(".navbar", { duration: 1.5, y: "-100%", opacity: 0 });
     </script>
   </body>
