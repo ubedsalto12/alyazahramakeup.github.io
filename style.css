@@ -1,5 +1,5 @@
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 4rem;
   background-color: #ff78c4;
 }
 
@@ -8,7 +8,7 @@
 }
 
 section {
-  padding-top: 8rem;
+  padding-top: 6rem;
 }
 
 .gellery-img {
@@ -21,4 +21,23 @@ section {
 
 #gallery .row > * {
   padding: 0;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.gallery-img {
+  max-width: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
 }
